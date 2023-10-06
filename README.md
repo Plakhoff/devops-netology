@@ -15,3 +15,7 @@ override.tf.json
 Будут игнорироваться конфигурацию файлы в текущей директории с именами:
 .terraformrc
 terraform.rc
+
+ADD NEWLINE
+
+ADD Secondline
