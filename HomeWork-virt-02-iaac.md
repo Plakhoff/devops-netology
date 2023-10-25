@@ -22,3 +22,15 @@ Ansible является продуктом с открытым исходным
 
 Более надежный метод работы систем конфигурации:
 Предпочтительнее push метод - показывает что именно проиливается, куда и какая конфигурация.
+
+Задача 3
+
+Vagrant 2.2.19
+Virtualbox Версия 7.0.12
+ansible 2.10.8
+  config file = None
+  configured module search path = ['/home/plakhov/.ansible/plugins/modules', '/usr/share/ansible/plugins/modules']
+  ansible python module location = /usr/lib/python3/dist-packages/ansible
+  executable location = /usr/bin/ansible
+  python version = 3.10.6 (main, Mar 10 2023, 10:55:28) [GCC 11.3.0]
+  
