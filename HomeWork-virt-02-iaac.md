@@ -33,4 +33,6 @@ ansible 2.10.8
   ansible python module location = /usr/lib/python3/dist-packages/ansible
   executable location = /usr/bin/ansible
   python version = 3.10.6 (main, Mar 10 2023, 10:55:28) [GCC 11.3.0]
+Terraform v1.6.2
+on linux_amd64
   
