@@ -26,7 +26,7 @@ Ansible является продуктом с открытым исходным
 Задача 3
 
 Vagrant 2.2.19
-Virtualbox version (6.1.38-dfsg-3~ubuntu1.22.04.1)
+Virtualbox Версия 6.1.48 
 ansible 2.10.8
   config file = None
   configured module search path = ['/home/plakhov/.ansible/plugins/modules', '/usr/share/ansible/plugins/modules']
