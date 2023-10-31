@@ -7,7 +7,7 @@ COPY html/index.html /usr/share/nginx/html
 docker build -t plakhov/netology:v1 .
 
 Пуш образа:
-docker image push plakgov/netology:v1
+docker image push plakhov/netology:v1
 
 Ссылка на образ:
 https://hub.docker.com/r/plakhov/netology/tags
