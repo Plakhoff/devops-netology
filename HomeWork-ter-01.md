@@ -6,5 +6,7 @@
 
 2. personal.auto.tfvars
 
-3. 
+3. random_string: "pxH9AQ9HEoYSSbdO"
+
+4. 
 
