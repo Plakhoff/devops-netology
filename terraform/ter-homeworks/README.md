@@ -14,7 +14,9 @@
 2. ![image](https://github.com/Plakhoff/devops-netology/assets/110332753/862701ed-ca31-4743-8a5a-6b44e2aa7c54)
 
 3. ![image](https://github.com/Plakhoff/devops-netology/assets/110332753/463c0a75-f2bd-4992-b716-8d8a79e8f90a)
-4. 
+4. ![image](https://github.com/Plakhoff/devops-netology/assets/110332753/003a7dfa-f6cc-4751-8ee1-968da5ac2e0f)
+5. 
+
 
 
 
