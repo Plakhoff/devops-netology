@@ -49,3 +49,41 @@ variable "vm_web_core_fraction" {
   default     = 5
   description = "VM core fraction"
 }
+
+### WM_db
+
+variable "vm_db_yandex_compute_image" {
+  type        = string
+  default     = "ubuntu-2004-lts"
+  description = "VM Image name"
+}
+
+variable "vm_db_yandex_compute_instance" {
+  type        = string
+  default     = "netology-develop-platform-db"
+  description = "VM Instance"
+}
+
+variable "vm_db_platform_id" {
+  type        = string
+  default     = "standard-v1"
+  description = "VM Platform ID"
+}
+
+variable "vm_db_cores" {
+  type        = number
+  default     = 2
+  description = "VM Cores"
+}
+
+variable "vm_db_memory" {
+  type        = number
+  default     = 1
+  description = "VM Memory"
+}
+
+variable "vm_db_core_fraction" {
+  type        = number
+  default     = 5
+  description = "VM core fraction"
+}

@@ -39,3 +39,18 @@ resource "yandex_compute_instance" "platform" {
   }
 
 }
+data "yandex_compute_image" "ubuntu2" {
+  family = var.vm_db_yandex_compute_image
+}
+resource "yandex_compute_instance" "platform" {
+  name        = var.vm_db_yandex_compute_instance
+  platform_id = var.vm_db_platform_id
+  resources {
+    cores         = var.vm_db_cores
+    memory        = var.vm_db_memory
+    core_fraction = var.vm_db_core_fraction
+  }
+  boot_disk {
+    initialize_params {
+      image_id = data.yandex_compute_image.ubuntu.image_id
+    }
