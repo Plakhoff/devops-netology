@@ -42,7 +42,7 @@ resource "yandex_compute_instance" "platform" {
 data "yandex_compute_image" "ubuntu2" {
   family = var.vm_db_yandex_compute_image
 }
-resource "yandex_compute_instance" "platform" {
+resource "yandex_compute_instance" "platform2" {
   name        = var.vm_db_yandex_compute_instance
   platform_id = var.vm_db_platform_id
   resources {
@@ -54,3 +54,4 @@ resource "yandex_compute_instance" "platform" {
     initialize_params {
       image_id = data.yandex_compute_image.ubuntu.image_id
     }
+  }
