@@ -25,23 +25,21 @@ variable "vm_web_platform_id" {
   default     = "standard-v1"
   description = "VM Platform ID"
 }
-
-variable "vm_web_cores" {
-  type        = number
-  default     = 2
-  description = "VM Cores"
-}
-
-variable "vm_web_memory" {
-  type        = number
-  default     = 1
-  description = "VM Memory"
-}
-
-variable "vm_web_core_fraction" {
-  type        = number
-  default     = 5
-  description = "VM core fraction"
+variable "vms_resources" {
+  description = "Resources all vms"
+  type        = map(map(number))
+  default     = {
+    vm_web_resources = {
+      cores         = 2
+      memory        = 1
+      core_fraction = 5
+    }
+    vm_db_resources = {
+      cores         = 2
+      memory        = 2
+      core_fraction = 20
+    }
+  }
 }
 
 ### WM_db
@@ -56,22 +54,4 @@ variable "vm_db_platform_id" {
   type        = string
   default     = "standard-v1"
   description = "VM Platform ID"
-}
-
-variable "vm_db_cores" {
-  type        = number
-  default     = 2
-  description = "VM Cores"
-}
-
-variable "vm_db_memory" {
-  type        = number
-  default     = 1
-  description = "VM Memory"
-}
-
-variable "vm_db_core_fraction" {
-  type        = number
-  default     = 5
-  description = "VM core fraction"
 }
