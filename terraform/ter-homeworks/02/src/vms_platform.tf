@@ -23,7 +23,7 @@ variable "vm_web_yandex_compute_image" {
 #variable "vm_web_yandex_compute_instance" {
 #  type        = string
 #  description = "VM Instance"
-}
+#}
 
 variable "vm_web_platform_id" {
   type        = string
