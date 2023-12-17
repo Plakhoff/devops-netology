@@ -36,8 +36,8 @@ variable "vms_resources" {
     }
     vm_db_resources = {
       cores         = 2
-      memory        = 2
-      core_fraction = 20
+      memory        = 1
+      core_fraction = 5
     }
   }
 }
