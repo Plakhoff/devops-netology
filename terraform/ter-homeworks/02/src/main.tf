@@ -15,6 +15,7 @@ data "yandex_compute_image" "ubuntu" {
 resource "yandex_compute_instance" "platform" {
   name        = local.vm_web_instance_name
   platform_id = var.vm_web_platform_id
+  metadata = var.common_metadata
   resources {
     cores         = var.vms_resources.vm_web_resources.cores
     memory        = var.vms_resources.vm_web_resources.memory
@@ -33,10 +34,6 @@ resource "yandex_compute_instance" "platform" {
     nat       = true
   }
 
-  metadata = {
-    serial-port-enable = 1
-    ssh-keys           = var.common_metadata
-  }
 
 }
 data "yandex_compute_image" "ubuntu2" {
@@ -45,6 +42,7 @@ data "yandex_compute_image" "ubuntu2" {
 resource "yandex_compute_instance" "platform2" {
   name        = local.vm_db_instance_name
   platform_id = var.vm_db_platform_id
+  metadata    = var.common_metadata
   resources {
     cores         = var.vms_resources.vm_db_resources.cores
     memory        = var.vms_resources.vm_db_resources.memory
