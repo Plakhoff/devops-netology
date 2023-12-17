@@ -20,11 +20,6 @@ variable "vm_web_yandex_compute_image" {
   description = "VM Image name"
 }
 
-#variable "vm_web_yandex_compute_instance" {
-#  type        = string
-#  description = "VM Instance"
-#}
-
 variable "vm_web_platform_id" {
   type        = string
   default     = "standard-v1"
@@ -56,12 +51,6 @@ variable "vm_db_yandex_compute_image" {
   default     = "ubuntu-2004-lts"
   description = "VM Image name"
 }
-
-#variable "vm_db_yandex_compute_instance" {
-#  type        = string
-#  default     = "netology-develop-platform-db"
-#  description = "VM Instance"
-#}
 
 variable "vm_db_platform_id" {
   type        = string
