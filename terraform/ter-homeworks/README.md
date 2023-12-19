@@ -31,13 +31,11 @@ _**КОД**_
 3. **Создайте в корне проекта файл 'vms_platform.tf' . Перенесите в него все переменные первой ВМ.**
    **Скопируйте блок ресурса и создайте с его помощью вторую ВМ в файле main.tf: "netology-develop-platform-db" , cores  = 2, memory = 2, core_fraction = 20. Объявите её переменные с префиксом vm_db_ в том же файле ('vms_platform.tf').**
    
-      _КОД main.tf_
+   _КОД main.tf_
    
    ![image](https://github.com/Plakhoff/devops-netology/assets/110332753/c6659e8c-76b8-4e25-9d24-67291491cb3f)
-   
    _КОД vms_platform.tf_
-   
-   ![image](https://github.com/Plakhoff/devops-netology/assets/110332753/996e5196-ae42-4dee-9e85-3865ef57c503)
+    ![image](https://github.com/Plakhoff/devops-netology/assets/110332753/996e5196-ae42-4dee-9e85-3865ef57c503)
    
 
 
