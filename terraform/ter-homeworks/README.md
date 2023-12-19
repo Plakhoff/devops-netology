@@ -28,16 +28,12 @@ _**КОД**_
  
  ![image](https://github.com/Plakhoff/devops-netology/assets/110332753/862701ed-ca31-4743-8a5a-6b44e2aa7c54)
 
-3. **Создайте в корне проекта файл 'vms_platform.tf' . Перенесите в него все переменные первой ВМ.**
-   **Скопируйте блок ресурса и создайте с его помощью вторую ВМ в файле main.tf: "netology-develop-platform-db" , cores  = 2, memory = 2, core_fraction = 20. Объявите её переменные с префиксом vm_db_ в том же файле ('vms_platform.tf').**
-   
-   _КОД main.tf_
-   
-   ![image](https://github.com/Plakhoff/devops-netology/assets/110332753/c6659e8c-76b8-4e25-9d24-67291491cb3f)
-   
-   _КОД vms_platform.tf_
-   
-    ![image](https://github.com/Plakhoff/devops-netology/assets/110332753/996e5196-ae42-4dee-9e85-3865ef57c503)
+3. **Создайте в корне проекта файл 'vms_platform.tf' . Перенесите в него все переменные первой ВМ.** <br/>
+   **Скопируйте блок ресурса и создайте с его помощью вторую ВМ в файле main.tf: "netology-develop-platform-db" , cores  = 2, memory = 2, core_fraction = 20. Объявите её переменные с префиксом vm_db_ в том же файле ('vms_platform.tf').** <br/>
+   _КОД main.tf_ <br/>
+   ![image](https://github.com/Plakhoff/devops-netology/assets/110332753/c6659e8c-76b8-4e25-9d24-67291491cb3f) <br/>
+   _КОД vms_platform.tf_ <br/>
+    ![image](https://github.com/Plakhoff/devops-netology/assets/110332753/996e5196-ae42-4dee-9e85-3865ef57c503) <br/>
    
 
 7. ![image](https://github.com/Plakhoff/devops-netology/assets/110332753/463c0a75-f2bd-4992-b716-8d8a79e8f90a)
