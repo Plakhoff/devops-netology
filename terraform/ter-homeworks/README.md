@@ -8,9 +8,11 @@
   _preemptible = true - Сделать машину прерываемой (какую машину можно прервать\остановить\пожертвовать в случае нехватки ресурсов)  
  core_fraction - Если указано, указывает базовую производительность для ядра в процентах._  
   
-    Созданная WM
+    **_Созданная WM_**  
+    
    ![image](https://github.com/Plakhoff/devops-netology/assets/110332753/1d1cd7ad-9e74-4eae-b9f8-37633a018f82)
-    curl с созданной ВМ
+    **_Curl с созданной ВМ_**  
+    
   ![image](https://github.com/Plakhoff/devops-netology/assets/110332753/971fb455-d3a0-4b2c-940b-22ded06fd528)
 
 
