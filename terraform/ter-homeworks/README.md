@@ -38,7 +38,14 @@ _**КОД**_
  **Примените изменения** <br/>
  _Вторая созданная VM_ <br/>
  ![image](https://github.com/Plakhoff/devops-netology/assets/110332753/463c0a75-f2bd-4992-b716-8d8a79e8f90a) <br/>
-8. ![image](https://github.com/Plakhoff/devops-netology/assets/110332753/003a7dfa-f6cc-4751-8ee1-968da5ac2e0f)
+ ЗАДАНИЕ 4.
+ **Объявите в файле outputs.tf один output типа map, содержащий { instance_name = external_ip } для каждой из ВМ.** <br/>
+ **Примените изменения.** <br/>
+ _КОД outputs.tf_ <br/>
+ ![image](https://github.com/Plakhoff/devops-netology/assets/110332753/5b583700-3744-470a-8bd6-e1fa79764e99) <br/>
+_Вывод команды terraform output_ <br/>
+![image](https://github.com/Plakhoff/devops-netology/assets/110332753/003a7dfa-f6cc-4751-8ee1-968da5ac2e0f) <br/>
+
 9. ![image](https://github.com/Plakhoff/devops-netology/assets/110332753/526d6973-262d-4f52-be5f-39bb24662265)
 10. ![image](https://github.com/Plakhoff/devops-netology/assets/110332753/6cfe557f-bf7d-4769-bd94-ddfef0f76f0c)
    
