@@ -34,10 +34,11 @@ _**КОД**_
    _КОД main.tf_
    
    ![image](https://github.com/Plakhoff/devops-netology/assets/110332753/c6659e8c-76b8-4e25-9d24-67291491cb3f)
+   
    _КОД vms_platform.tf_
+   
     ![image](https://github.com/Plakhoff/devops-netology/assets/110332753/996e5196-ae42-4dee-9e85-3865ef57c503)
    
-
 
 7. ![image](https://github.com/Plakhoff/devops-netology/assets/110332753/463c0a75-f2bd-4992-b716-8d8a79e8f90a)
 8. ![image](https://github.com/Plakhoff/devops-netology/assets/110332753/003a7dfa-f6cc-4751-8ee1-968da5ac2e0f)
