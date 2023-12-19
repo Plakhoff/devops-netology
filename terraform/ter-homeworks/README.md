@@ -1,4 +1,4 @@
-Задание 1.
+ЗАДАНИЕ 1.
 **Инициализируйте проект, выполните код. Исправьте намеренно допущенные синтаксические ошибки. Ищите внимательно, посимвольно. Ответьте, в чём заключается их суть.**  
 Решение:  
  _В процессе применения плана возникла ошибка  
@@ -16,7 +16,49 @@
   ![image](https://github.com/Plakhoff/devops-netology/assets/110332753/971fb455-d3a0-4b2c-940b-22ded06fd528)
 
 
+ЗАДАНИЕ 2.  
+**Замените все хардкод-значения для ресурсов yandex_compute_image и yandex_compute_instance на отдельные переменные. К названиям переменных ВМ добавьте в начало префикс vm_web_ . Пример: vm_web_name.**  
+_**КОД**_  
 
+###WM_web
+
+_variable "vm_web_yandex_compute_image" {
+  type        = string
+  default     = "ubuntu-2004-lts"
+  description = "VM Image name"
+}
+
+variable "vm_web_yandex_compute_instance" {
+  type        = string
+  default     = "netology-develop-platform-web"
+  description = "VM Instance_  
+
+ **Объявите нужные переменные в файле variables.tf, обязательно указывайте тип переменной. Заполните их default прежними значениями из main.tf.**  
+ _**КОД**_  
+ 
+ _variable "vm_web_platform_id" {
+  type        = string
+  default     = "standard-v1"
+  description = "VM Platform ID"
+}
+
+variable "vm_web_cores" {
+  type        = number
+  default     = 2
+  description = "VM Cores"
+}
+
+variable "vm_web_memory" {
+  type        = number
+  default     = 1
+  description = "VM Memory"
+}
+
+variable "vm_web_core_fraction" {
+  type        = number
+  default     = 5
+  description = "VM core fraction"
+}
 2. ![image](https://github.com/Plakhoff/devops-netology/assets/110332753/862701ed-ca31-4743-8a5a-6b44e2aa7c54)
 
 3. ![image](https://github.com/Plakhoff/devops-netology/assets/110332753/463c0a75-f2bd-4992-b716-8d8a79e8f90a)
