@@ -45,8 +45,13 @@ _**КОД**_
  ![image](https://github.com/Plakhoff/devops-netology/assets/110332753/5b583700-3744-470a-8bd6-e1fa79764e99) <br/>
 _Вывод команды terraform output_ <br/>
 ![image](https://github.com/Plakhoff/devops-netology/assets/110332753/003a7dfa-f6cc-4751-8ee1-968da5ac2e0f) <br/>
-
-9. ![image](https://github.com/Plakhoff/devops-netology/assets/110332753/526d6973-262d-4f52-be5f-39bb24662265)
+ЗАДАНИЕ 5. <br/>
+**В файле locals.tf опишите в одном local-блоке имя каждой ВМ, используйте интерполяцию ${..} с несколькими переменными по примеру из лекции.** <br/>
+**Замените переменные с именами ВМ из файла variables.tf на созданные вами local-переменные.** <br/>
+_КОД locals.tf_ <br/>
+![image](https://github.com/Plakhoff/devops-netology/assets/110332753/f808df2d-9c21-4a8f-913a-f2d5abc03cb9) <br/>
+**Примените изменения** <br/>
+![image](https://github.com/Plakhoff/devops-netology/assets/110332753/526d6973-262d-4f52-be5f-39bb24662265) <br/>
 10. ![image](https://github.com/Plakhoff/devops-netology/assets/110332753/6cfe557f-bf7d-4769-bd94-ddfef0f76f0c)
    
 
