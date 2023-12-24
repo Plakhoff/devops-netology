@@ -17,7 +17,7 @@ _variable "each_vm" {_ <br/>
   _type = list(object({  vm_name=string, cpu=number, ram=number, disk=number }))_ <br/>
 _}_ <br/>
 _КОД_ <br/>
-![image](https://github.com/Plakhoff/devops-netology/assets/110332753/648617f5-1a6d-4e97-bb0a-cedd741871cb) <br/>
+![image](https://github.com/Plakhoff/devops-netology/assets/110332753/8e513e5a-3ac0-4981-9d7a-de8ab1955774) <br/>
 
 **При желании внесите в переменную все возможные параметры. 4. ВМ из пункта 2.1 должны создаваться после создания ВМ из пункта 2.2. 5. Используйте функцию file в local-переменной для считывания ключа ~/.ssh/id_rsa.pub и его последующего использования в блоке metadata, взятому из ДЗ 2. 6. Инициализируйте проект, выполните код.** <br/>
 
