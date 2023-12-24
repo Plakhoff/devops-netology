@@ -33,14 +33,14 @@ locals {
 	{
    	vm_name = "main"
    	cpu 	= 4
-   	ram 	= 1
+   	ram 	= 2
    	frac	= 20
 	},
 	{
    	vm_name = "replica"
    	cpu 	= 2
-   	ram 	= 1
-   	frac	= 25
+   	ram 	= 4
+   	frac	= 100
 	}
   ]
 }
