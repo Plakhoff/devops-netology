@@ -17,7 +17,7 @@ _variable "each_vm" {_ <br/>
   _type = list(object({  vm_name=string, cpu=number, ram=number, disk=number }))_ <br/>
 _}_ <br/>
 _КОД_ <br/>
-![image](https://github.com/Plakhoff/devops-netology/assets/110332753/8e513e5a-3ac0-4981-9d7a-de8ab1955774) <br/>
+![image](https://github.com/Plakhoff/devops-netology/assets/110332753/ce9b676e-c6d0-4a05-949d-23291ba4ad1c) <br/>
 
 **При желании внесите в переменную все возможные параметры. 4. ВМ из пункта 2.1 должны создаваться после создания ВМ из пункта 2.2. 5. Используйте функцию file в local-переменной для считывания ключа ~/.ssh/id_rsa.pub и его последующего использования в блоке metadata, взятому из ДЗ 2. 6. Инициализируйте проект, выполните код.** <br/>
 
@@ -26,7 +26,9 @@ _КОД_ <br/>
 ЗАДАНИЕ 3 <br/>
 **Создайте 3 одинаковых виртуальных диска размером 1 Гб с помощью ресурса yandex_compute_disk и мета-аргумента count в файле disk_vm.tf.** <br/>
 **Создайте в том же файле одиночную(использовать count или for_each запрещено из-за задания №4) ВМ c именем "storage" . Используйте блок dynamic secondary_disk{..} и мета-аргумент for_each для подключения созданных вами дополнительных дисков.** <br/>
-
+_КОД_ <br/>
+![image](https://github.com/Plakhoff/devops-netology/assets/110332753/01edb48e-f983-4822-82a1-a3aaad7ba2c4) <br/>
+![image](https://github.com/Plakhoff/devops-netology/assets/110332753/35ea2add-c586-4ca9-8982-41712df58d9a) <br/>
 
 ЗАДАНИЕ 4 <br/>
 **В файле ansible.tf создайте inventory-файл для ansible. Используйте функцию tepmplatefile и файл-шаблон для создания ansible inventory-файла из лекции. Готовый код возьмите из демонстрации к лекции demonstration2. Передайте в него в качестве переменных группы виртуальных машин из задания 2.1, 2.2 и 3.2, т. е. 5 ВМ.** <br/>
