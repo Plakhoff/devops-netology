@@ -13,7 +13,7 @@ depends_on = [ yandex_compute_instance.web ]
 
   boot_disk {
 	initialize_params {
-  	image_id = "fd8g64rcu9fq5kpfqls0"
+  	image_id = "fd84ocs2qmrnto64cl6m"
 	}
   }
 
@@ -23,7 +23,7 @@ depends_on = [ yandex_compute_instance.web ]
   }
 
   metadata = {
-#	ssh-keys = "ubuntu:${file("~/.ssh/id_rsa.pub")}"
+#	ssh-keys = "ubuntu:${file("C:\Users\plach\.ssh\id_rsa.pub")}"
 	ssh-keys = local.ssh
   }
 }
@@ -33,18 +33,18 @@ locals {
 	{
    	vm_name = "main"
    	cpu 	= 4
-   	ram 	= 4
+   	ram 	= 1
    	frac	= 20
 	},
 	{
    	vm_name = "replica"
    	cpu 	= 2
-   	ram 	= 2
-   	frac	= 100
+   	ram 	= 1
+   	frac	= 25
 	}
   ]
 }
 
 locals {
-  ssh = "ubuntu:${file("~/.ssh/id_rsa.pub")}"
+  ssh = "ubuntu:${file("C:\Users\plach\.ssh\id_rsa.pub")}"
 }
