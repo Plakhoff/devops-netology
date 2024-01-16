@@ -1,4 +1,4 @@
-webservers]
+[webservers]
 
 %{~ for i in webservers ~}
 %{ if "${i["network_interface"][0]["nat"]}" != false }
