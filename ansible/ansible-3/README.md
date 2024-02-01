@@ -1,20 +1,17 @@
-# Домашнее задание к занятию 2 «Работа с Playbook»
-
-
-**1. Подготовьте свой inventory-файл `prod.yml`.** <br/>
-![image](https://github.com/Plakhoff/devops-netology/assets/110332753/e65d28b6-0c9d-4f36-9d3c-7d6344b8aad2) <br/>
-**2. Допишите playbook: нужно сделать ещё один play, который устанавливает и настраивает [vector](https://vector.dev). Конфигурация vector должна деплоиться через template файл jinja2. От вас не требуется использовать все возможности шаблонизатора, просто вставьте стандартный конфиг в template файл. Информация по шаблонам по [ссылке](https://www.dmosk.ru/instruktions.php?object=ansible-nginx-install). не забудьте сделать handler на перезапуск vector в случае изменения конфигурации!** <br/>
-Syte.yml: https://github.com/Plakhoff/devops-netology/blob/master/ansible/ansible-2/playbook/site.yml <br/>
-Для применения на Ubuntu пришлось немного изменить параметры в модулях и сами модули. <br/>
-**3. При создании tasks рекомендую использовать модули: `get_url`, `template`, `unarchive`, `file`.** <br/>
-**4. Tasks должны: скачать дистрибутив нужной версии, выполнить распаковку в выбранную директорию, установить vector.** <br/>
-**5. Запустите `ansible-lint site.yml` и исправьте ошибки, если они есть.** <br/>
-![image](https://github.com/Plakhoff/devops-netology/assets/110332753/3765f080-5eb8-4bb1-a5af-c980d72df473) <br/>
-**6. Попробуйте запустить playbook на этом окружении с флагом `--check`.** <br/>
-![image](https://github.com/Plakhoff/devops-netology/assets/110332753/3a1d8991-033c-4743-ace4-a29956f708c2) <br/>
-Такой вывод --check потому что выполнялся после отладки на команде --diff <br/>
-**7. Запустите playbook на `prod.yml` окружении с флагом `--diff`. Убедитесь, что изменения на системе произведены.** <br/>
-![image](https://github.com/Plakhoff/devops-netology/assets/110332753/4f040e69-3f49-4e51-be9f-58cb918df8b7) <br/>
-**8. Повторно запустите playbook с флагом `--diff` и убедитесь, что playbook идемпотентен.** <br/>
-![image](https://github.com/Plakhoff/devops-netology/assets/110332753/e7256153-2935-42eb-a0e3-d7eb21036265) <br/>
-playbook идемпотентен <br/>
+Созданные ВМ <br/>
+![3-3](https://github.com/Plakhoff/devops-netology/assets/110332753/436a9d9e-ccc9-48bd-92b3-3643bba44bf0) <br/>
+**1. Допишите playbook: нужно сделать ещё один play, который устанавливает и настраивает LightHouse.** <br/>
+**2. При создании tasks рекомендую использовать модули: get_url, template, yum, apt.** <br/>
+**3. Tasks должны: скачать статику LightHouse, установить Nginx или любой другой веб-сервер, настроить его конфиг для открытия LightHouse, запустить веб-сервер.** <br/>
+**4. Подготовьте свой inventory-файл prod.yml.** <br/>
+![image](https://github.com/Plakhoff/devops-netology/assets/110332753/64ab38a2-7cb6-4cf8-8f9a-19ba92a94490) <br/>
+**5. Запустите ansible-lint site.yml и исправьте ошибки, если они есть.** <br/>
+**6. Попробуйте запустить playbook на этом окружении с флагом --check.** <br/>
+![3-1](https://github.com/Plakhoff/devops-netology/assets/110332753/77d0f1ef-82b8-4a9c-89b5-f15597cf0b04) <br/>
+Флаг --check - проверяет, но не скачивает пакеты, отсюда ошибка. <br/>
+**7. Запустите playbook на prod.yml окружении с флагом --diff. Убедитесь, что изменения на системе произведены.** <br/>
+![3-2](https://github.com/Plakhoff/devops-netology/assets/110332753/71c7da8d-5ff9-4742-bc50-e3d2c7fac634) <br/>
+Маленькое количество изменений из-за отладки кода с флагом --diff
+**8. Повторно запустите playbook с флагом --diff и убедитесь, что playbook идемпотентен.** <br/>
+![image](https://github.com/Plakhoff/devops-netology/assets/110332753/17b9d39a-502d-49a2-b59a-e76558d0227d) <br/>
+playbook идемпотентен
