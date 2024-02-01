@@ -9,10 +9,10 @@ vector:
   hosts:
     vector-01:
       ansible_user: vagrant
-      ansible_host: 158.160.4.218
+      ansible_host: 130.193.34.39
 
 lighthouse:
   hosts:
     lighthouse-01:
       ansible_user: vagrant
-      ansible_host: 158.160.67.10
+      ansible_host: 84.201.153.253
