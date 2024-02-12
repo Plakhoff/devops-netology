@@ -103,3 +103,8 @@ variable "stor_res_size" {
   type        = number
   default     = 1
 }
+
+variable "image_id" {
+  type        = string
+  default     = "fd84ocs2qmrnto64cl6m"
+}

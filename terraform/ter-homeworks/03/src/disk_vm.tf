@@ -15,7 +15,7 @@ resource "yandex_compute_instance" "storage" {
 
   boot_disk {
 	initialize_params {
-  	image_id = "fd84ocs2qmrnto64cl6m"
+  	image_id = var.image_id
 	}
   }
 
