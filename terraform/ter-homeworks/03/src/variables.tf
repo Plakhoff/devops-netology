@@ -123,3 +123,8 @@ variable "nat_value_stor" {
   type        = string
   default     = "true"
 }
+
+variable "nat_value_fe" {
+  type        = string
+  default     = "true"
+}
