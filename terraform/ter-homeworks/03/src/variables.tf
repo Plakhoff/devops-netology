@@ -108,3 +108,18 @@ variable "image_id" {
   type        = string
   default     = "fd84ocs2qmrnto64cl6m"
 }
+
+variable "platform_id" {
+  type        = string
+  default     = "standard-v1"
+}
+
+variable "nat_value_web" {
+  type        = string
+  default     = "true"
+}
+
+variable "nat_value_stor" {
+  type        = string
+  default     = "true"
+}

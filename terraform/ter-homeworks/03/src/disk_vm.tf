@@ -27,7 +27,7 @@ resource "yandex_compute_instance" "storage" {
   }
   network_interface {
 	subnet_id = yandex_vpc_subnet.develop.id
-	nat   	= true
+	nat   	= var.nat_value_stor
   }
 
   metadata = {

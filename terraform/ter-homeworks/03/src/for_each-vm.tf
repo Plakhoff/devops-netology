@@ -4,7 +4,7 @@ depends_on = [ yandex_compute_instance.web ]
 
   for_each = { for vm in var.for_each_vms: vm.name => vm }
   name = each.value.name
-  platform_id = "standard-v1"
+  platform_id = var.platform_id
   resources {
  	cores     	= each.value.cpu
  	memory    	= each.value.ram
