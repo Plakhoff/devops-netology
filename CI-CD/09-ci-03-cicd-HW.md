@@ -3,7 +3,7 @@
 ## Подготовка к выполнению <br>
 <br>
 1. Создайте два VM в Yandex Cloud с параметрами: 2CPU 4RAM Centos7 (остальное по минимальным требованиям). <br>
-
+![ВМ](https://github.com/Plakhoff/devops-netology/assets/110332753/4f0a7160-f72a-4b48-8e8a-d4ecfe28c370) <br>
 2. Пропишите в [inventory](./infrastructure/inventory/cicd/hosts.yml) [playbook](./infrastructure/site.yml) созданные хосты. <br>
 ![image](https://github.com/Plakhoff/devops-netology/assets/110332753/d5bf45a1-c18d-4a25-8dbe-23691c5959d2) <br>
 3. Добавьте в [files](./infrastructure/files/) файл со своим публичным ключом (id_rsa.pub). Если ключ называется иначе — найдите таску в плейбуке, которая использует id_rsa.pub имя, и исправьте на своё. <br>
