@@ -1,7 +1,7 @@
 # Домашнее задание к занятию 9 «Процессы CI/CD» <br>
 <br>
 ## Подготовка к выполнению <br>
-<br>
+
 1. Создайте два VM в Yandex Cloud с параметрами: 2CPU 4RAM Centos7 (остальное по минимальным требованиям). <br>
 ![ВМ](https://github.com/Plakhoff/devops-netology/assets/110332753/4f0a7160-f72a-4b48-8e8a-d4ecfe28c370) <br>
 2. Пропишите в [inventory](./infrastructure/inventory/cicd/hosts.yml) [playbook](./infrastructure/site.yml) созданные хосты. <br>
@@ -26,7 +26,7 @@ _**Успешный запуск**_ <br>
 ## Знакомоство с SonarQube <br>
 <br>
 ### Основная часть <br>
-<br>
+
 1. Создайте новый проект, название произвольное. <br>
 2. Скачайте пакет sonar-scanner, который вам предлагает скачать SonarQube. <br>
 3. Сделайте так, чтобы binary был доступен через вызов в shell (или поменяйте переменную PATH, или любой другой, удобный вам способ). <br>
@@ -40,35 +40,37 @@ _**Успешный запуск**_ <br>
 8. Запустите анализатор повторно — проверьте, что QG пройдены успешно. <br>
 9. Сделайте скриншот успешного прохождения анализа, приложите к решению ДЗ. <br>
 ![сонар исправлен](https://github.com/Plakhoff/devops-netology/assets/110332753/76869a6c-0c28-4b97-9002-41e8fd8a3c86) <br>
-<br>
+
 ## Знакомство с Nexus <br>
-<br>
+
 ### Основная часть <br>
-<br>
+
 1. В репозиторий `maven-public` загрузите артефакт с GAV-параметрами: <br>
-<br>
+
  *    groupId: netology; <br>
  *    artifactId: java; <br>
  *    version: 8_282; <br>
  *    classifier: distrib; <br>
  *    type: tar.gz. <br>
-   <br>
+
 2. В него же загрузите такой же артефакт, но с version: 8_102. <br>
 3. Проверьте, что все файлы загрузились успешно. <br>
+![нексус загружены файлы](https://github.com/Plakhoff/devops-netology/assets/110332753/2c7a8763-ee40-4166-ab3d-9be753def463) <br>
 4. В ответе пришлите файл `maven-metadata.xml` для этого артефекта. <br>
-<br>
+![мавен метадата](https://github.com/Plakhoff/devops-netology/assets/110332753/8d620a5f-2ab6-4560-9dbd-6d7b45507f69) <br>
+
 ### Знакомство с Maven <br>
-<br>
+
 ### Подготовка к выполнению <br>
-<br>
+
 1. Скачайте дистрибутив с [maven](https://maven.apache.org/download.cgi). <br>
 2. Разархивируйте, сделайте так, чтобы binary был доступен через вызов в shell (или поменяйте переменную PATH, или любой другой, удобный вам способ). <br>
 3. Удалите из `apache-maven-<version>/conf/settings.xml` упоминание о правиле, отвергающем HTTP- соединение — раздел mirrors —> id: my-repository-http-unblocker. <br>
 4. Проверьте `mvn --version`. <br>
 5. Заберите директорию [mvn](./mvn) с pom. <br>
-<br>
+
 ### Основная часть <br>
-<br>
+
 1. Поменяйте в `pom.xml` блок с зависимостями под ваш артефакт из первого пункта задания для Nexus (java с версией 8_282). <br>
 2. Запустите команду `mvn package` в директории с `pom.xml`, ожидайте успешного окончания. <br>
 3. Проверьте директорию `~/.m2/repository/`, найдите ваш артефакт. <br>
