@@ -1,0 +1,6 @@
+projectKey=Netology-plakhov
+serverUrl=http://158.160.23.184:9000
+serverVersion=9.1.0.47736
+dashboardUrl=http://158.160.23.184:9000/dashboard?id=Netology-plakhov
+ceTaskId=AY4IOGGshT6IVW856NHr
+ceTaskUrl=http://158.160.23.184:9000/api/ce/task?id=AY4IOGGshT6IVW856NHr
