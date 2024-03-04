@@ -67,12 +67,16 @@ _**Успешный запуск**_ <br>
 2. Разархивируйте, сделайте так, чтобы binary был доступен через вызов в shell (или поменяйте переменную PATH, или любой другой, удобный вам способ). <br>
 3. Удалите из `apache-maven-<version>/conf/settings.xml` упоминание о правиле, отвергающем HTTP- соединение — раздел mirrors —> id: my-repository-http-unblocker. <br>
 4. Проверьте `mvn --version`. <br>
+![мавен версия](https://github.com/Plakhoff/devops-netology/assets/110332753/57b53ade-9998-4192-91ca-16d843e05134) <br>
 5. Заберите директорию [mvn](./mvn) с pom. <br>
 
 ### Основная часть <br>
 
 1. Поменяйте в `pom.xml` блок с зависимостями под ваш артефакт из первого пункта задания для Nexus (java с версией 8_282). <br>
 2. Запустите команду `mvn package` в директории с `pom.xml`, ожидайте успешного окончания. <br>
+![mvn success](https://github.com/Plakhoff/devops-netology/assets/110332753/f443baac-609f-4c61-96a8-db4007e9ce1f) <br>
 3. Проверьте директорию `~/.m2/repository/`, найдите ваш артефакт. <br>
 4. В ответе пришлите исправленный файл `pom.xml`. <br>
+_https://github.com/Plakhoff/devops-netology/blob/master/CI-CD/mvn/pom.xml_ <br>
+
 
