@@ -33,7 +33,8 @@ _node_filesystem_free_bytes{fstype="ext4"}_ <br>
 Задание 3 <br>
 Создайте для каждой Dashboard подходящее правило alert — можно обратиться к первой лекции в блоке «Мониторинг». <br>
 В качестве решения задания приведите скриншот вашей итоговой Dashboard. <br>
-
+![image](https://github.com/Plakhoff/devops-netology/assets/110332753/a172acde-d146-451e-a13e-a8d50d8d2e65) <br>
 Задание 4 <br>
 Сохраните ваш Dashboard.Для этого перейдите в настройки Dashboard, выберите в боковом меню «JSON MODEL». Далее скопируйте отображаемое json-содержимое в отдельный файл и сохраните его. <br>
 В качестве решения задания приведите листинг этого файла. <br>
+https://github.com/Plakhoff/devops-netology/blob/master/monitoring/dashbord.json <br>
