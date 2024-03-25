@@ -61,6 +61,7 @@ VictoriaMetrics - pull <br>
 Nagios - pull <br>
 
 **7. Склонируйте себе репозиторий и запустите TICK-стэк, используя технологии docker и docker-compose.** <br>
+![image](https://github.com/Plakhoff/devops-netology/assets/110332753/7bbc22d1-e123-4cf0-8895-46a6dbe02226) <br>
 
 **8. Перейдите в веб-интерфейс Chronograf (http://localhost:8888) и откройте вкладку Data explorer.** <br>
 
@@ -69,5 +70,8 @@ Nagios - pull <br>
 **В measurments выберите cpu->host->telegraf-getting-started, а в fields выберите usage_system. Внизу появится график утилизации cpu.** <br>
 **Вверху вы можете увидеть запрос, аналогичный SQL-синтаксису. Поэкспериментируйте с запросом, попробуйте изменить группировку и интервал наблюдений.** <br>
 **Для выполнения задания приведите скриншот с отображением метрик утилизации cpu из веб-интерфейса.** <br>
+![image](https://github.com/Plakhoff/devops-netology/assets/110332753/a378f734-52ea-4ea2-a3e8-613c79e6aa35) <br>
 
 **9. Изучите список telegraf inputs. Добавьте в конфигурацию telegraf следующий плагин - docker:** <br>
+**После настройке перезапустите telegraf, обновите веб интерфейс и приведите скриншотом список measurments в веб-интерфейсе базы telegraf.autogen . Там должны появиться метрики, связанные с docker.** <br>
+![image](https://github.com/Plakhoff/devops-netology/assets/110332753/59c03453-e98b-429d-92df-619fcea4b35b) <br>
