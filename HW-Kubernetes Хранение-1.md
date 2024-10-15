@@ -39,6 +39,5 @@ Busybox пишет текст в файл /output/text.txt <br>
 ![7-log](https://github.com/user-attachments/assets/830a96b7-f557-4e2e-a87d-66a15c0051b6) <br>
 
 
-
-
-
+_Манифест daemonset:_ https://github.com/Plakhoff/devops-netology/blob/master/HW%20files/HW%20k8s-3/netology-daemonset.yaml <br>
+_Манифест deployment-volume:_ https://github.com/Plakhoff/devops-netology/blob/master/HW%20files/HW%20k8s-3/netology-deployment-volume.yaml <br>
