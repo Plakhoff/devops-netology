@@ -47,3 +47,6 @@ Pod не запущен и находится в состоянии Init:0/1. <b
 ![Снимок экрана 2024-10-15 170351](https://github.com/user-attachments/assets/5becbbc8-f16e-4d9f-8270-cafab2ec8693) <br>
 Запуск\проверка <br>
 ![16-запуск](https://github.com/user-attachments/assets/112f4d10-06ae-40f4-a835-b8f51181a1e5) <br>
+
+
+Ссылка на используемые манифесты: https://github.com/Plakhoff/devops-netology/tree/62451e93266b141acc61c54dba67957ba82149ac/HW%20files/HW%20k8s-3 <br>
