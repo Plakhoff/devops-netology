@@ -1,0 +1,25 @@
+apiVersion: apps/v1
+kind: DaemonSet
+metadata:
+  name: daemonset-volume
+  labels:
+    app: daemonset-multitool
+spec:
+  selector:
+    matchLabels:
+      app: daemonset-multitool
+  template:
+    metadata:
+      labels:
+        app: daemonset-multitool
+    spec:
+      containers:
+      - name: multitool
+        image: wbitt/network-multitool
+        volumeMounts:
+        - name: varlog
+          mountPath: /var/log
+      volumes:
+      - name: varlog
+        hostPath:
+          path: /var/log
