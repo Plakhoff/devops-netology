@@ -1,0 +1,36 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: netology-deployment-volume
+  labels:
+    app: netology-app
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: netology-app
+  template:
+    metadata:
+      labels:
+        app: netology-app
+    spec:
+      containers:
+      - name: busybox
+        image: busybox
+        command: ['sh', '-c', 'while true; do echo Hi, bro! >> /output/text.txt; sleep 5; done']
+        volumeMounts:
+        - name: vol
+          mountPath: /output
+      - name: multitool
+        image: wbitt/network-multitool
+        env:
+          - name: HTTP_PORT
+            value: "8080"
+        ports:
+        - containerPort: 8080
+        volumeMounts:
+        - name: vol
+          mountPath: /share
+      volumes:
+      - name: vol
+        emptyDir: {}
