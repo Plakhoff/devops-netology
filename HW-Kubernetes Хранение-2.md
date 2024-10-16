@@ -59,3 +59,6 @@
 ![15-demo](https://github.com/user-attachments/assets/6f864dc3-7059-400e-82f5-a60f903dd71f) <br>
 
 Ссылка на манифесты:
+https://github.com/Plakhoff/devops-netology/blob/master/HW%20files/HW%20k8s-3/netology-deployment-nfs.yaml <br>
+https://github.com/Plakhoff/devops-netology/blob/master/HW%20files/HW%20k8s-3/netology-sc.yaml <br>
+https://github.com/Plakhoff/devops-netology/blob/master/HW%20files/HW%20k8s-3/netology-pvc-nfs.yaml <br>
