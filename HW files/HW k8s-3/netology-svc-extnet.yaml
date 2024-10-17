@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: netology-svc-extnet
+spec:
+  selector:
+    app: netology-app-net
+  ports:
+    - name: nginx
+      protocol: TCP
+      port: 9080
+      targetPort: 80
+      nodePort: 30080
+  type: NodePort
