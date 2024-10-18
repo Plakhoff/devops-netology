@@ -1,0 +1,24 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: netology-deployment-backend
+  labels:
+    app: netology-backend
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: netology-backend
+  template:
+    metadata:
+      labels:
+        app: netology-backend
+    spec:
+      containers:
+      - name: multitool
+        image: wbitt/network-multitool
+        env:
+          - name: HTTP_PORT
+            value: "8080"
+        ports:
+        - containerPort: 8080
