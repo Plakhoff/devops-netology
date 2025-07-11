@@ -1,4 +1,4 @@
-**Домашнее задание к занятию «Организация сети»**
+Домашнее задание к занятию «Организация сети»
 Подготовка к выполнению задания
 Домашнее задание состоит из обязательной части, которую нужно выполнить на провайдере Yandex Cloud, и дополнительной части в AWS (выполняется по желанию).
 Все домашние задания в блоке 15 связаны друг с другом и в конце представляют пример законченной инфраструктуры.
@@ -23,6 +23,4 @@ Route table.
 Compute Instance.
 
 Задание 1
-![Задание 1](https://github.com/Plakhoff/devops-netology/blob/master/%D0%BE%D1%80%D0%B31.JPG)
-https://github.com/Plakhoff/devops-netology/blob/master/%D0%BE%D1%80%D0%B32.JPG
-https://github.com/Plakhoff/devops-netology/blob/master/%D0%BE%D1%80%D0%B33.JPG
+
