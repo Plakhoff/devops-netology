@@ -16,4 +16,4 @@
 
 
 Манифесты: <br>
-
+https://github.com/Plakhoff/devops-netology/tree/master/HW%20%D0%9E%D1%80%D0%B3%20%D1%81%D0%B5%D1%82%D0%B8 <br>
