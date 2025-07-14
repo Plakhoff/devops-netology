@@ -16,10 +16,10 @@
 
 
  Задание 1
- ![орг1](https://github.com/user-attachments/assets/c1a7e69a-c31a-4006-9deb-de2970c2b247) <br>
- ![орг2](https://github.com/user-attachments/assets/85088931-ec39-486d-b7ce-d784a5749328) <br>
- ![орг3](https://github.com/user-attachments/assets/ccfd329e-2fa1-4273-aac9-3939dddfe236) <br>
+ ![облака1](https://github.com/user-attachments/assets/41a8d0e9-66f3-4bf2-9bff-de73cbb3a48d) <br>
+ ![облака2](https://github.com/user-attachments/assets/c6b920f5-3371-420d-ab3b-ac3936ac828e) <br>
+ ![облака3](https://github.com/user-attachments/assets/f28cd274-65e1-45a0-875a-7ef096d8e581) <br>
 
 
-Манифесты: <br>
-https://github.com/Plakhoff/devops-netology/tree/master/HW%20%D0%9E%D1%80%D0%B3%20%D1%81%D0%B5%D1%82%D0%B8 <br>
+Манифесты: https://github.com/Plakhoff/devops-netology/tree/master/HW%20%D0%9E%D1%80%D0%B3%20%D1%81%D0%B5%D1%82%D0%B8%202 <br>
+
