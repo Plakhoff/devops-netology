@@ -6,3 +6,12 @@
 **- создать сертификат;** <br>
 **- создать статическую страницу в Object Storage и применить сертификат HTTPS;** <br> 
 **- в качестве результата предоставить скриншот на страницу с сертификатом в заголовке (замочек).** <br>
+
+Решение <br>
+![облака4](https://github.com/user-attachments/assets/380b5077-d7c1-441f-bc19-99ad8744dd63) <br>
+
+![облака5](https://github.com/user-attachments/assets/b2bb150c-f620-4c5a-9d2c-656f776e3d29) <br>
+
+Манифесты: <br>
+https://github.com/Plakhoff/devops-netology/tree/master/HW%20%D0%9E%D1%80%D0%B3%20%D1%81%D0%B5%D1%82%D0%B8%203 <br>
+ 
